@@ -1,11 +1,12 @@
 import { TablePage } from "../pages/table-page/table-page";
-import { DefaultLayouts } from "../shared/ui/ui-default-layouts";
+import { BaseLayout } from "../shared/ui";
 
 function App() {
   return (
-    <DefaultLayouts>
+    <BaseLayout>
+      <div>Navigate</div>
       <TablePage />
-    </DefaultLayouts>
+    </BaseLayout>
   );
 }
 
